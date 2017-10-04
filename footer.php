@@ -1,4 +1,3 @@
-</body>
 <footer>
   <div id="Global">
     <div id="RS">
@@ -14,5 +13,7 @@
     </div>
   </div>
 </footer>
+<script src="assets/js/juery-3.2.1.slim.min.js" charset="utf-8"></script>
+<script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+</body>
 </html>
-?>
