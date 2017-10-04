@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-<title>Footer</title>
 </body>
 <footer>
   <div id="Global">
@@ -20,3 +16,4 @@
   </div>
 </footer>
 </html>
+?>
