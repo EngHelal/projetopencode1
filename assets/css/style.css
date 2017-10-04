@@ -4,4 +4,21 @@ nav a {
   margin-left: 20px;
   text-align: center;
   padding-top: 2em;
+#Global {
+  background-color: #DCEFF8;
+  background-size: cover;
+  height: 160px;
+}
+#RS {
+  width: 92%;
+float: left;
+}
+#nav {
+  margin: 60px;
+  width: 8%;
+float: right;
+}
+a {
+  text-decoration: none;
+}
 }
