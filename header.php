@@ -15,10 +15,9 @@
     </div>
     <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
-        <a href="#">Homepage</a>
-        <a href="#">Catalog</a>
-        <a href="#">Exercises</a>
-        <a href="#">Contact</a>
+        <a href="index.php">Homepage</a>
+        <a href="catalog.php">Catalog</a>
+        <a href="contact.php">Contact</a>
       </div>
     </nav>
   </header>
