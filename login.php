@@ -24,7 +24,6 @@
                     var user = $('#userName').val();
                     var password = $('#userPassword').val();
                     if (user !== '' && password) !== '' {
-                      
                     }
                   })
               </script>
