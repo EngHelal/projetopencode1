@@ -1,28 +1,74 @@
-body { padding-top: 70px;
+/*Debut css Amadou*/
+body{ padding-top: 70px;
 }
-nav a {
+
+/*header*/
+nav a{
   margin-left: 20px;
   text-align: center;
   padding-top: 2em;
 }
-/* CSS victorien */
-#sign{
-  text-align:right;
-}
-#Global {
-  background-color: #DCEFF8;
-  background-size: cover;
-  height: 160px;
-}
-#RS {
-  width: 92%;
+#nav p{
+  display: inline-block;
   float: left;
 }
-#nav {
-  margin: 60px;
-  width: 8%;
+#sign{
+  text-align:right;
+  margin-bottom: 10px;
+}
+/*footer*/
+#rs{
   float: right;
 }
+#rs li{
+  list-style-type: none;
+}
+#rs h4{
+  text-align: center;
+}
+
+.social-nav {
+    padding-right: 10px;
+    list-style: none;
+    margin: -10px 0 0 -10px;
+}
+.social-nav li {
+    float: left;
+    margin: 10px 0 0 10px;
+    list-style: none;
+}
+.social-nav a {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    background: #286090;
+    margin-left: -20px;
+}
+#footerleft{
+  width: 60%;
+}
+#footerleft p{
+  display:inline-flex;
+  margin: 15px;
+  float: right;
+}
+#footer-nav{
+  float: left;
+}
+#footer-container{
+  background-color: #F8F8F8;
+}
+
+/*Fin pour Amadou*/
+
+
 a {
   text-decoration: none;
 }
@@ -50,8 +96,11 @@ a {
   width: 50%;
   float:right;
 }
-
-
+#formcontact {
+  margin-left: auto;
+  text-align:center;
+  font-weight:bold;
+}
 /* FIN CSS victorien */
 
 /* Début CSS Maxime*/
