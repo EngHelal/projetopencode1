@@ -14,7 +14,7 @@
         <div id="codehtml1">
           <div contenteditable="true">
             <span style="color:red"><br/>
-              &lt;?php
+              &lt;?php<br/><br/>
           ?&gt;<br/>
             </span>
           </div>
@@ -33,7 +33,7 @@
           <div id="codehtml2">
             <div contenteditable="true">
               <span style="color:red"><br/>
-                &lt;?php
+                &lt;?php<br/><br/>
             ?&gt;<br/>
               </span>
             </div>
