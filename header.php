@@ -19,7 +19,7 @@
     </div>
     <nav class="navbar navbar-default">
       <div class="nav-header">
-        <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a>
+        <a class="navbar-brand" href="homepage.php"><span class="glyphicon glyphicon-home"></span> Accueil</a>
       </div>
       <div class="">
         <ul class="nav navbar-nav">
