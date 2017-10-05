@@ -20,7 +20,7 @@
   <input type="button" value="Vérifiez vos réponses"/><br/><br/><br/>
   <p>Exercice 3 PHP</p>
   <p>Créez une variable age et l'initialiser avec une valeur.</p>
-  <p>Si l'age est supérieur ou égale à 18, affichez Vous êtes majeur.
+  <p>Si l'age est supérieur ou égale à 18, affichez : Vous êtes majeur.
     Dans le cas contraire, affichez Vous êtes mineur.</p><br/><br/>
   <div contenteditable="true">
     &lt;?php<br/><br/><br/><br/>
