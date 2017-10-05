@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="" id="logo">
+    <div class="img-responsive" id="logo">
       <img src="assets/img/opencode.png" alt="logo">
     </div>
     <div id="sign" class="container-fluid">
