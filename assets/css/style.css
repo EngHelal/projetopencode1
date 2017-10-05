@@ -1,5 +1,6 @@
 /*Debut css Amadou*/
 body{ padding-top: 120px;
+
 }
 
 /*header*/
@@ -106,6 +107,7 @@ h1{
 .contener{
   display: flex;
   justify-content: space-around;
+
 }
 .img{
   float: right;
@@ -139,9 +141,31 @@ h1{
   font-weight: bold;
   text-align: center;
 }
+/*Homepage*/
+body{
+  background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
+}
+#home{
+  color: white;
+  margin-top: -100px;
+}
+#text{
+  font-size: 35px;
+  float:left;
+  color:white;
+}
 
+#goodluck{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+#welcome{
+  color:white;
+}
 /*fin css fomulaire d'inscription*/
 /*Fin css Anthony*/
+
 /*CSS Victorien */
 #Exo1HTML {
   border: solid 3px;
