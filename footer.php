@@ -12,8 +12,8 @@
     </div>
     <div id="footer-nav">
       <ul>
-        <li><a href="">Acceuil</a></li>
-        <li><a href="">Catalogue</a></li>
+        <li><a href="index.php">Acceuil</a></li>
+        <li><a href="catalog.php">Catalogue</a></li>
       </ul>
     </div>
     <div id="footerleft">
