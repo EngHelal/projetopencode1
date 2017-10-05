@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Formulaire de connection</title>
+    <title>Formulaire de connexion</title>
     <style>
 
   <div class="container">
