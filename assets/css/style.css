@@ -136,10 +136,12 @@ h1{
   text-align: center;
 }
 /*Homepage*/
-body{
+#imghomepage{
   background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
 }
 #home{
+  text-align: center;
+  font-size: 35px;
   color: white;
   margin-top: -100px;
 }
