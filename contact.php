@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta charset="utf-8">
-</head>
 <!--ancien code du formulaire de contact
 <head>
 <meta charset="utf-8">
@@ -23,21 +17,49 @@
 </form>
 </div>
 -->
-<div id="wrapper">
-  <div id="formcontact">
-    <fieldset>
-      <form name="Formulaire contact" id="formulaire de contact" method="post" action="envoyer.php">
-        <h1>Formulaire de contact</h1>
-        <label><span>Nom*: </span><input type="text" placeholder="Entrez votre nom" name="nom" id="name" required autofocus></label><br/><br/>
-        <label><span>Ville*: </span><input type="text" placeholder="Entrez votre ville" name="ville" id="city" required></label><br/><br/>
-        <label><span>Tel: </span><input type="tel" placeholder="Votre numero de telephone" name="téléphone" id="phone"></label><br/><br/>
-        <label><span>Email*: </span><input type="email" size="38" placeholder="Votre-email@gmail.com" name="email" id="email" required></label><br/><br/>
-        <select name="sujet" id="subject"><option>Proposition<option>Suggestion<option>Autre</select><br/><br/>
-          <label><span>Message: </span><textarea name="monmessage" id="message" rows="4" cols="50"></textarea></label>
-          <input class="sendButton" type="submit" name="Submit" value="Envoyer">
-        </form>
-      </fieldset>
-    </div>
-  </div>
-</body>
-</html>
+<?php include 'header.php' ?>
+
+<!--<div id="wrapper" class="container">
+<div id="formcontact">-->
+<div id="formulairecontact">
+  <form method="post" action="envoyer.php">
+    <fieldset id="wrapper">
+      <legend>Formulaire de contact</legend>
+      <ol>
+        <li>
+          <label for="nom">Nom*: <input type="text" placeholder="Entrez votre nom" name="nom" id="name" required autofocus></label>
+        </li>
+      </ol>
+      <ol>
+        <li>
+            <label for="ville">Ville*: <input type="text" placeholder="Entrez votre ville" name="ville" id="city" required></label>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <label for="telephone">Tel: <input type="tel" placeholder="Votre numero de telephone" name="telephone" id="phone"></label>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <label for="email">Email*: <input type="email" size="38" placeholder="Votre-email@gmail.com" name="email" id="email" required></label>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <select name="sujet" id="subject"><option>Proposition<option>Suggestion<option>Autre</select>
+        </li>
+      </ol>
+      <ol>
+        <li>
+          <label for="message">Message: <textarea name="message" id="message" rows="4" cols="50"></textarea></label>
+        </li>
+      </ol>
+    </fieldset><br /><br />
+    <input class="sendButton" type="submit" name="Submit" value="Envoyer">
+    </form>
+</div>
+
+  <!--  </div>
+</div> -->
+<?php include 'footer.php' ?>

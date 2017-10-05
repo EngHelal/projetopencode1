@@ -16,16 +16,6 @@ nav a{
   text-align:right;
   margin-bottom: 10px;
 }
-/*footer*/
-#rs{
-  float: right;
-}
-#rs li{
-  list-style-type: none;
-}
-#rs h4{
-  text-align: center;
-}
 #logo{
   width: 50%;
   height: 30px;
@@ -39,6 +29,21 @@ nav a{
 	width:80%;
   height: 130px;
   clear: both;
+}
+/*footer*/
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#rs{
+  float: right;
+}
+#rs li{
+  list-style-type: none;
+}
+#rs h4{
+  text-align: center;
 }
 .social-nav {
     padding: 0 10px 10px 0;
@@ -159,13 +164,28 @@ h1{
   color: red;
   text-align: center;
 }
-#wrapper {
+#wrapper li{
+  list-style-type: none;
+}
+#wrapper{
+  width: 100%;
+  /*justify-content: center;*/
+  background-color: #F8F8F8;
+}
+#wapper {
+  align-content: center;
+}
+#formulairecontact{
+  width: 70%;
+  margin: auto;
+}
+/*#wrapper {
   max-width: 580px;
   display: flex;
   justify-content: center;
-  width: 600px;
-  margin-top: 0px;
-  margin-left: 600px;
+  width: 100%;
+  margin-top: 10px;
+  /*margin-left: 50%;*/
 }
 #name, #city, #phone, #emial, #message {
   width: 75%;
