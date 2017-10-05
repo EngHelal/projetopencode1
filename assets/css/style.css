@@ -25,3 +25,50 @@ float: right;
 a {
   text-decoration: none;
 }
+/*Début css Anthony profil*/
+.titreprofile{
+  text-align: center;
+  margin-top:0px;
+  margin-left: 190px;
+}
+
+.contener{
+  display: flex;
+  justify-content: space-around;
+}
+.img{
+  float: right;
+}
+.p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+}
+/*fin css profil
+/*formulaire d'inscription*/
+.formulairecenter{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 600px;
+}
+.fieldset{
+
+  display: inline-block;
+  text-align: left;
+}
+.legend{
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*fin css fomulaire d'inscription*/
+/*Fin css Anthony*/
