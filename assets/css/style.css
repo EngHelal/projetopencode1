@@ -1,5 +1,5 @@
 /*Debut css Amadou*/
-body{ padding-top: 70px;
+body{ padding-top: 120px;
 }
 
 /*header*/
@@ -26,15 +26,29 @@ nav a{
 #rs h4{
   text-align: center;
 }
-
+#logo{
+  width: 50%;
+  height: 30px;
+  padding: 0px;
+  float: left;
+  margin-top: -100px;
+}
+#logo img{
+  margin: 0px;
+	padding:0px;
+	width:80%;
+  height: 130px;
+  clear: both;
+}
 .social-nav {
-    padding-right: 10px;
+    padding: 0 10px 10px 0;
     list-style: none;
     margin: -10px 0 0 -10px;
 }
 .social-nav li {
     float: left;
-    margin: 10px 0 0 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
     list-style: none;
 }
 .social-nav a {
@@ -62,15 +76,18 @@ nav a{
 #footer-nav{
   float: left;
 }
+#footer-nav li{
+  list-style-type: none;
+}
 #footer-container{
   background-color: #F8F8F8;
+}
+h1{
+  text-align: center;
 }
 
 /*Fin pour Amadou*/
 
-
-a {
-  text-decoration: none;
 }
 
 /*Début css Anthony profil*/
@@ -107,7 +124,6 @@ a {
   margin-left: 600px;
 }
 .fieldset{
-
   display: inline-block;
   text-align: left;
 }
@@ -119,6 +135,20 @@ a {
 }
 
 /*fin css fomulaire d'inscription*/
+/*Début css homepage*/
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+
+#text{
+  font-size: 35px;
+}
+#goodluck{
+  text-align: center;
+  font-size: 40px;
+}
 /*Fin css Anthony*/
 /*CSS Victorien */
 #Exo1HTML {
@@ -136,6 +166,17 @@ a {
 #HTML {
   color: red;
   text-align: center;
+}
+#wrapper {
+  max-width: 580px;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 600px;
+}
+#name, #city, #phone, #emial, #message {
+  width: 75%;
 }
 #énoncéhtml1, #énoncéhtml2 {
   width: 50%;

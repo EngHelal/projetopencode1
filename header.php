@@ -10,6 +10,9 @@
 </head>
 <body>
   <header>
+    <div class="img-responsive" id="logo">
+      <img src="assets/img/opencode.png" alt="logo">
+    </div>
     <div id="sign" class="container-fluid">
       <button type="button" id="myButton" class="btn btn-primary" onclick="document.location.href='sign.php'">Inscription</a></button>
       <button type="button" id="myButton" class="btn btn-primary" onclick="document.location.href='login.php'">Connexion</a></button>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +20,12 @@
   include 'header.php';
   ?>
   <h1>Voici les cours</h1>
+=======
+
+<?php include 'header.php'; ?>
+<h1>Les cours disponibles actuellement</h1>
+<section>
+>>>>>>> c485de38e4bd8c388d438fd0fbc0e2c11c3604b0
   <div id="Content">
     <div class="content">
       <img src="assets/img/javascript.png" alt="Javascript" />
@@ -93,8 +100,14 @@
       </p>
     </div>
   </div>
+<<<<<<< HEAD
   <?php
   include 'footer.php'
   ?>
 </body>
 </html>
+=======
+  </div>
+</section>
+<?php include 'footer.php'; ?>
+>>>>>>> c485de38e4bd8c388d438fd0fbc0e2c11c3604b0

@@ -18,7 +18,7 @@
     </div>
     <div id="footerleft">
       <p><a href="">Mentions légales</a></p>
-      <p><a href="">Forum</a></p>
+      <p><a href="forum.php">Forum</a></p>
     </div>
   </div>
 </footer>

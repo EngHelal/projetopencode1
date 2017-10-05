@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Formulaire de connection</title>
+    <title>Formulaire de connexion</title>
     <style>
 
   <div class="container">
@@ -44,7 +44,7 @@
   <body>
     <fieldset>
       <form method="post" action="quelquepart.php">
-        <legend>Formulaire de connection</legend>
+        <legend>Formulaire de connexion</legend>
         <p><label for="mail">Entrer votre adresse mail: </label><input type="email" name="email" id="mail"></p>
         <p><label for="password">Entrer votre mot de passe: <input type="password" name="password" id="password" maxlength="15"></p>
       </form>
@@ -53,6 +53,5 @@
 
 
     </fieldset>
-
   </body>
 </html>
