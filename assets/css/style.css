@@ -50,6 +50,9 @@ a {
   width: 50%;
   float:right;
 }
-
-
+#formcontact {
+  margin-left: auto;
+  text-align:center;
+  font-weight:bold;
+}
 /* FIN CSS victorien */
