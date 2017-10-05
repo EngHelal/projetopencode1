@@ -83,12 +83,6 @@ nav a{
 #footer-container{
   background-color: #F8F8F8;
 }
-#courses img{
-  float: left;
-}
-#courses{
-  text-align: center;
-}
 h1{
   text-align: center;
 }
@@ -164,6 +158,20 @@ body{
   color:white;
 }
 /*fin css fomulaire d'inscription*/
+/*Début css homepage*/
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+
+#text{
+  font-size: 35px;
+}
+#goodluck{
+  text-align: center;
+  font-size: 40px;
+}
 /*Fin css Anthony*/
 
 /*CSS Victorien */
@@ -210,6 +218,7 @@ body{
 /* FIN CSS victorien */
 
 /* Début CSS Maxime*/
+/*Catalogue*/
 #Content{
   display:flex;
   flex-wrap: wrap;
@@ -225,4 +234,30 @@ body{
   text-align:center;
   line-height:4;
 }
+/*fIN Catalogue*/
+
+/*Forum*/
+#flex{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+}
+.post{
+  border:1px solid black;
+  border-radius:5px;
+  margin-bottom: 10px;
+  width:50%;
+}
+.profilforum{
+  float:left;
+}
+.messageforum{
+  float:left;
+}
+#titleforum{
+  font-weight: bold;
+  text-align:center;
+}
+/*Fin forum*/
 /*Fin CSS Maxime*/

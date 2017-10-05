@@ -1,7 +1,31 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Catalogue</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+  img{
+    float:left;
+    align:center;
+  }
+  h1 {
+    text-align:center;
+  }
+  </style>
+</head>
+<body>
+  <?php
+  include 'header.php';
+  ?>
+  <h1>Voici les cours</h1>
+=======
 
 <?php include 'header.php'; ?>
 <h1>Les cours disponibles actuellement</h1>
 <section>
+>>>>>>> c485de38e4bd8c388d438fd0fbc0e2c11c3604b0
   <div id="Content">
     <div class="content">
       <img src="assets/img/javascript.png" alt="Javascript" />
@@ -9,7 +33,7 @@
         Javascript
       </p>
     </div>
-    <div class="content" id="courses">
+    <div class="content">
       <img src="assets/img/html.png" alt="HTML" />
       <p class="center">
         <a href="exercices.php">HTML</a>
@@ -76,6 +100,14 @@
       </p>
     </div>
   </div>
+<<<<<<< HEAD
+  <?php
+  include 'footer.php'
+  ?>
+</body>
+</html>
+=======
   </div>
 </section>
 <?php include 'footer.php'; ?>
+>>>>>>> c485de38e4bd8c388d438fd0fbc0e2c11c3604b0
