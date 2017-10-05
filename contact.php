@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+</head>
 <!--ancien code du formulaire de contact
 <head>
 <meta charset="utf-8">
@@ -23,17 +26,17 @@
 <div id="wrapper">
   <div id="formcontact">
     <fieldset>
-    <form name="Formulaire contact" id="formulaire de contact" method="post" action="envoyer.php">
-      <h1>Formulaire de contact</h1>
-      <label><span>Nom*: </span><input type="text" placeholder="Entrez votre nom" name="nom" id="name" required autofocus></label><br/><br/>
-      <label><span>Ville*: </span><input type="text" placeholder="Entrez votre ville" name="ville" id="city" required></label><br/><br/>
-      <label><span>Tel: </span><input type="tel" placeholder="Votre numero de telephone" name="téléphone" id="phone"></label><br/><br/>
-      <label><span>Email*: </span><input type="email" size="38" placeholder="Votre-email@gmail.com" name="email" id="email" required></label><br/><br/>
-      <select name="sujet" id="subject"><option>Proposition<option>Suggestion<option>Autre</select><br/><br/>
-        <label><span>Message: </span><textarea name="monmessage" id="message" rows="4" cols="50"></textarea></label>
-        <input class="sendButton" type="submit" name="Submit" value="Envoyer">
-      </form>
-    </fieldset>
+      <form name="Formulaire contact" id="formulaire de contact" method="post" action="envoyer.php">
+        <h1>Formulaire de contact</h1>
+        <label><span>Nom*: </span><input type="text" placeholder="Entrez votre nom" name="nom" id="name" required autofocus></label><br/><br/>
+        <label><span>Ville*: </span><input type="text" placeholder="Entrez votre ville" name="ville" id="city" required></label><br/><br/>
+        <label><span>Tel: </span><input type="tel" placeholder="Votre numero de telephone" name="téléphone" id="phone"></label><br/><br/>
+        <label><span>Email*: </span><input type="email" size="38" placeholder="Votre-email@gmail.com" name="email" id="email" required></label><br/><br/>
+        <select name="sujet" id="subject"><option>Proposition<option>Suggestion<option>Autre</select><br/><br/>
+          <label><span>Message: </span><textarea name="monmessage" id="message" rows="4" cols="50"></textarea></label>
+          <input class="sendButton" type="submit" name="Submit" value="Envoyer">
+        </form>
+      </fieldset>
     </div>
   </div>
 </body>

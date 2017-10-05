@@ -1,6 +1,8 @@
 <body>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Exercices HTML</title>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exercices HTML</title>
+  </head>
   <h1 id="HTML">Exercices HTML</h1>
   <div id="Exo1HTML">
     <div id="énoncéhtml1">
