@@ -130,7 +130,6 @@ h1{
   margin-left: 600px;
 }
 .fieldset{
-
   display: inline-block;
   text-align: left;
 }
@@ -159,6 +158,17 @@ h1{
 #HTML {
   color: red;
   text-align: center;
+}
+#wrapper {
+  max-width: 580px;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 600px;
+}
+#name, #city, #phone, #emial, #message {
+  width: 75%;
 }
 #énoncéhtml1, #énoncéhtml2 {
   width: 50%;
