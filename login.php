@@ -1,35 +1,34 @@
-<?php
-  header('header.php');
- ?>
- <?php
-   header('header.php');
-  ?>
-  <!--Pulling Awesome Font -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire de connection</title>
+    <style>
 
-  <div class="container">
-      <div class="row">
-          <div class="col-md-offset-5 col-md-3">
-              <div class="form-login">
-              <h4>Welcome back.</h4>
-              <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
-              </br>
-              <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
-              </br>
-              <div class="wrapper">
-              <span class="group-btn">
-                  <input id="btn" type="button" name="login" value="login" class="btn btn-primary btn-md"><i class="fa fa-sign-in"></i>
-              </span>
-              <script>
-                  $("#btn").click(function(){
-                    var user = $('#userName').val();
-                    var password = $('#userPassword').val();
-                    if (user !== '' && password) !== '' {
-                    }
-                  })
-              </script>
-              </div>
-              </div>
+    body{
+      text-align: center;
+    }
+    fieldset{
+      display: inline-block;
+      text-align: right;
+    }
+    legend{
+      text-align: center;
+      font-weight: bold;
+    }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <form method="post" action="quelquepart.php">
+        <legend>Formulaire de connection</legend>
+        <p><label for="mail">Entrer votre adresse mail: </label><input type="email" name="email" id="mail"></p>
+        <p><label for="password">Entrer votre mot de passe: <input type="password" name="password" id="password" maxlength="15"></p>
+      </form>
+    		<p><input type="submit" value="Connexion" /></p>
+        <p><a href="">Mot de passe perdu</a> <a href="">Adresse mail perdu</a></p>
 
-          </div>
-      </div>
-  </div>
+    </fieldset>
+
+  </body>
+</html>
