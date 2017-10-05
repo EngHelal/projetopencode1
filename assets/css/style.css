@@ -41,3 +41,11 @@ a {
   color: red;
   text-align: center;
 }
+#énoncéhtml1, #énoncéhtml2 {
+  width: 50%;
+  float:left;
+}
+#codehtml1, #codehtml2 {
+  width: 50%;
+  float:right;
+}
