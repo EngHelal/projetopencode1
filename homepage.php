@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <title>Acceuil</title>
+    <?php include 'header.php' ?>
   </head>
-  <body>
+  <body><br><br><br><br>
+    <div id="imghomepage">
     <h1 id="home">Bienvenue sur Opencode !</h1><br>
     <div>
       <p class="img"><div class="container">
@@ -45,5 +47,7 @@
       Cependant, si vous êtes prêt à relever ce challenge, ce site devrait vous aider à vous former de manière efficace à la programmation
       informatique.</p><br>
       <p id="goodluck">Pour commencer et choisir vos exercices veuillez appuyer sur catalogue en haut du site => Bonne chance !</p>
+    </div><br><br><br><br>
   </body>
 </html>
+<?php include 'footer.php' ?>
