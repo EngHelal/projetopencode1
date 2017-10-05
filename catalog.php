@@ -5,7 +5,6 @@
   <title>Catalogue</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
-  
   img{
     float:left;
     align:center;
@@ -16,6 +15,9 @@
   </style>
 </head>
 <body>
+  <?php
+  include 'header.php';
+  ?>
   <h1>Voici les cours</h1>
   <div id="Content">
     <div class="content">
@@ -91,6 +93,8 @@
       </p>
     </div>
   </div>
-</div>
+  <?php
+  include 'footer.php'
+  ?>
 </body>
 </html>
