@@ -1,5 +1,6 @@
 /*Debut css Amadou*/
 body{ padding-top: 120px;
+
 }
 
 /*header*/
@@ -87,12 +88,6 @@ footer{
 #footer-container{
   background-color: #F8F8F8;
 }
-#courses img{
-  float: left;
-}
-#courses{
-  text-align: center;
-}
 h1{
   text-align: center;
 }
@@ -111,6 +106,7 @@ h1{
 .contener{
   display: flex;
   justify-content: space-around;
+
 }
 .img{
   float: right;
@@ -144,9 +140,47 @@ h1{
   font-weight: bold;
   text-align: center;
 }
+/*Homepage*/
+#imghomepage{
+  background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
+}
+#home{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: -100px;
+}
+#text{
+  font-size: 35px;
+  float:left;
+  color:white;
+}
 
+#goodluck{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+#welcome{
+  color:white;
+}
 /*fin css fomulaire d'inscription*/
+/*Début css homepage*/
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+
+#text{
+  font-size: 35px;
+}
+#goodluck{
+  text-align: center;
+  font-size: 40px;
+}
 /*Fin css Anthony*/
+
 /*CSS Victorien */
 #Exo1HTML {
   border: solid 3px;
@@ -206,6 +240,7 @@ h1{
 /* FIN CSS victorien */
 
 /* Début CSS Maxime*/
+/*Catalogue*/
 #Content{
   display:flex;
   flex-wrap: wrap;
@@ -221,4 +256,30 @@ h1{
   text-align:center;
   line-height:4;
 }
+/*fIN Catalogue*/
+
+/*Forum*/
+#flex{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+}
+.post{
+  border:1px solid black;
+  border-radius:5px;
+  margin-bottom: 10px;
+  width:50%;
+}
+.profilforum{
+  float:left;
+}
+.messageforum{
+  float:left;
+}
+#titleforum{
+  font-weight: bold;
+  text-align:center;
+}
+/*Fin forum*/
 /*Fin CSS Maxime*/
