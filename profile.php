@@ -18,19 +18,19 @@
   <div>
     <h2><strong>Vos apprentissages en cours: </strong></h2> <ol><li>PHP pour débutant</li>
                                                        <li>Javascript pour débutant</li>
-                                                       <li>Utiliser Unity</li></ol></p>
+                                                       <li>Utiliser Unity</li></ol>
                                                      </div>
     <div>
       <h2><strong>Les exercices éffectués: </strong></h2><ol>
                                       <li>HTML/CSS pour débutant</li>
                                       <li>PHP pour débutant (POO)</li>
-                                      <li>Javascript pour débutant</li></p>
+                                      <li>Javascript pour débutant</li></ol>
                                     </div>
 
 
     <div>
       <h2><strong>Vos certificats obtenus: </strong></h2> <ol><li>B.A.B.A du HTML/CSS</li>
                                                               <li>Comprendre le web</li>
-                                                              <li>Comprendre la blockchaine</li></ol></p>
+                                                              <li>Comprendre la blockchaine</li></ol>
                                                             </div>
                                                      </div>
