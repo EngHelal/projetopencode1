@@ -141,6 +141,20 @@ h1{
 }
 
 /*fin css fomulaire d'inscription*/
+/*Début css homepage*/
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin: 0px;
+}
+
+#text{
+  font-size: 35px;
+}
+#goodluck{
+  text-align: center;
+  font-size: 40px;
+}
 /*Fin css Anthony*/
 /*CSS Victorien */
 #Exo1HTML {
