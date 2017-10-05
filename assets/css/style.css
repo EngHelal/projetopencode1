@@ -102,3 +102,21 @@ a {
   font-weight:bold;
 }
 /* FIN CSS victorien */
+
+/* Début CSS Maxime*/
+#Content{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+.content{
+  border: 1px solid black;
+  border-radius:10px;
+  margin:60px;
+  width:15%;
+}
+.center {
+  text-align:center;
+  line-height:4;
+}
+/*Fin CSS Maxime*/
