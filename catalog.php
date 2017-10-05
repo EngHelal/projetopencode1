@@ -9,7 +9,7 @@
         Javascript
       </p>
     </div>
-    <div class="content" id="courses">
+    <div class="content">
       <img src="assets/img/html.png" alt="HTML" />
       <p class="center">
         <a href="exercices.php">HTML</a>
