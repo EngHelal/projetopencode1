@@ -5,6 +5,7 @@ nav a {
   text-align: center;
   padding-top: 2em;
 }
+/* CSS victorien */
 #sign{
   text-align:right;
 }
@@ -25,7 +26,7 @@ nav a {
 a {
   text-decoration: none;
 }
-#Exo1HTML{
+#Exo1HTML {
   border: solid 3px;
   background-color: #171E28;
   color: white;
@@ -49,3 +50,6 @@ a {
   width: 50%;
   float:right;
 }
+
+
+/* FIN CSS victorien */
