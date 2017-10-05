@@ -72,3 +72,30 @@ nav a{
 a {
   text-decoration: none;
 }
+#Exo1HTML {
+  border: solid 3px;
+  background-color: #171E28;
+  color: white;
+  border-color: black;
+}
+#Exo2HTML {
+  border: solid 3px;
+  background-color: #171E28;
+  color: white;
+  border-color: black;
+}
+#HTML {
+  color: red;
+  text-align: center;
+}
+#énoncéhtml1, #énoncéhtml2 {
+  width: 50%;
+  float:left;
+}
+#codehtml1, #codehtml2 {
+  width: 50%;
+  float:right;
+}
+
+
+/* FIN CSS victorien */
