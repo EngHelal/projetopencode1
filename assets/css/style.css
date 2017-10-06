@@ -176,10 +176,12 @@ h1{
   font-size: 40px;
 }
 /*fin css fomulaire d'inscription*/
-<<<<<<< HEAD
-/*Début css formulaire connexion*/
 
-=======
+/*Début css formulaire connexion*/
+#formulairelogin{
+  text-align: center;
+}
+
 /*Début css profile*/
 
 #titreprofile{
