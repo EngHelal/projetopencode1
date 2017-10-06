@@ -38,7 +38,7 @@ $("#btn").click(function(){
   </style>
 </head>
 <body>
-  <fieldset>
+  <fieldset id="formulairelogin">
     <form method="post" action="quelquepart.php">
       <legend>Formulaire de connexion</legend>
       <p><label for="mail">Entrer votre adresse mail: </label><input type="email" name="email" id="mail"></p>

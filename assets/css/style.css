@@ -164,9 +164,7 @@ h1{
 #welcome{
   color:white;
 }
-/*fin css fomulaire d'inscription*/
-/*Début css homepage*/
-h1{
+#home{
   text-align: center;
   font-size: 70px;
   margin: 0px;
@@ -179,6 +177,9 @@ h1{
   text-align: center;
   font-size: 40px;
 }
+/*fin css fomulaire d'inscription*/
+/*Début css formulaire connexion*/
+
 /*Fin css Anthony*/
 
 /*CSS Victorien */
