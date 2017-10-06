@@ -1,6 +1,7 @@
 <?php
   include 'header.php';
   ?>
+<div class="background">
 <h1>Les cours disponibles actuellement</h1>
   <div id="Content">
     <div class="content">
@@ -76,4 +77,5 @@
       </p>
     </div>
   </div>
+</div>
 <?php include 'footer.php'; ?>
