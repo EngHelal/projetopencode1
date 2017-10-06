@@ -24,7 +24,7 @@
           </span>
         </div>
       </div><br/>
-      <input type="button" value="Vérifiez vos réponses"/><br/><br/><br/>
+      <input type="button" value="Vérifiez vos réponses"/><br/><br/>
     </div>
     <div id="Exo2HTML">
       <div id="énoncéhtml2">
