@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Forum</title>
-</head>
-<body class="background">
-  <?php
-  include 'header.php';
-  ?>
+<?php
+include 'header.php';
+?>
+<div class="background">
   <div id="flex">
     <div id="titleforum">
       <p>
@@ -54,8 +47,7 @@
       </div>
     </div>
   </div>
-  <?php
-  include 'footer.php';
-  ?>
-</body>
-</html>
+  <div>
+    <?php
+    include 'footer.php';
+    ?>
