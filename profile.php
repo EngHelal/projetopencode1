@@ -9,7 +9,10 @@ include 'header.php';
   <img id="imgprofile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3eNCBWfOik6RKLA4D2zi1335pk-lz0bZ5h4VUlnRV-Pq5ruX"/>
   <h1 id="titreprofile">Vous êtes sur votre profil</h1><br><br><br><br><br>
   <div id="contener">
-    <p>Dernière connection le: 07/10/2017</p>
+    <p><?php  $date = date("d-m-Y");
+    $heure = date("H:i");
+    Print("Dernière connection le: $date et il est $heure");
+    ?></p>
     <p>Votre pseudo: Gégé</p>
     <p>Nom: Leroux</p>
     <p>Prénom: Gérard</p>
@@ -31,8 +34,6 @@ include 'header.php';
           <li>PHP pour débutant (POO)</li>
           <li>Javascript pour débutant</li></ol>
         </div>
-
-
         <div>
           <h2><strong>Vos certificats obtenus: </strong></h2> <ol><li>B.A.B.A du HTML/CSS</li>
             <li>Comprendre le web</li>
