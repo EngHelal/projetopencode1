@@ -33,9 +33,7 @@ nav a{
 }
 /*footer*/
 footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 2600px;
 }
 #rs{
   float: right;
@@ -178,8 +176,42 @@ h1{
   font-size: 40px;
 }
 /*fin css fomulaire d'inscription*/
+<<<<<<< HEAD
 /*Début css formulaire connexion*/
 
+=======
+/*Début css profile*/
+
+#titreprofile{
+  text-align: center;
+}
+ #contener{
+   display: flex;
+   justify-content: space-around;
+ }
+/*début css profile*/
+#body{
+  background-color: grey;
+}
+#imgprofile{
+  float: right;
+}
+#titreprofile{
+  margin-top: -100px;
+}
+#contener{
+  display: flex;
+  flex-direction: column;
+  margin-left: 800px;
+}
+#contener2{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/*Fin css profile
+>>>>>>> 93774a1856e501fd05966aa7915001d2fa1bf7f1
 /*Fin css Anthony*/
 
 /*CSS Victorien */
