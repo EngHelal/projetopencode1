@@ -85,8 +85,11 @@ clear: both;
 }
 /*footer*/
 footer{
+<<<<<<< HEAD
   /*position: absolute;
   bottom: 0;*/
+=======
+>>>>>>> db27e22f78937cff82149f36abec30b8a9d21bb0
   width: 100%;
 }
 #rs{
@@ -146,33 +149,7 @@ h1{
 
 /*Fin pour Amadou*/
 
-}
-
-/*Début css Anthony profil*/
-.titreprofile{
-  text-align: center;
-  margin-top:0px;
-  margin-left: 190px;
-}
-
-.contener{
-  display: flex;
-  justify-content: space-around;
-
-}
-.img{
-  float: right;
-}
-.p{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  width: 100%;
-}
-/*fin css profil
-/*formulaire d'inscription*/
+/*Début inscription*/
 .formulairecenter{
   display: flex;
   justify-content: center;
@@ -192,7 +169,8 @@ h1{
   font-weight: bold;
   text-align: center;
 }
-/*Homepage*/
+/*Fin css inscription*/
+/* Début css Homepage*/
 #imghomepage{
   background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
 }
@@ -216,9 +194,7 @@ h1{
 #welcome{
   color:white;
 }
-/*fin css fomulaire d'inscription*/
-/*Début css homepage*/
-h1{
+#home{
   text-align: center;
   font-size: 70px;
   margin: 0px;
@@ -231,6 +207,36 @@ h1{
   text-align: center;
   font-size: 40px;
 }
+/*fin css homepage*/
+/*Début css profile*/
+#body{
+  background-color: #F1F8FF;
+}
+#imgprofile{
+  float: right;
+}
+#titreprofile{
+  text-align: center;
+  margin-top: ;
+}
+ #contener{
+   font-size: 20px;
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
+
+ }
+#contener2{
+  display: flex;
+  justify-content: space-around;
+}
+/*Formulairelogin*/
+#formulairelogin{
+  text-align: center;
+}
+/*Fin css profile
 /*Fin css Anthony*/
 
 /*CSS Victorien */
@@ -258,8 +264,8 @@ h1{
   /*justify-content: center;*/
   background-color: #F8F8F8;
 }
-#wapper {
-  align-content: center;
+#wrapper {
+  text-align: center;
 }
 #formulairecontact{
   width: 70%;
@@ -333,6 +339,9 @@ h1{
 #titleforum{
   font-weight: bold;
   text-align:center;
+}
+.background{
+  background-color:#F1F8FF;
 }
 /*Fin forum*/
 /*Fin CSS Maxime*/
