@@ -33,9 +33,7 @@ nav a{
 }
 /*footer*/
 footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 2600px;
 }
 #rs{
   float: right;
