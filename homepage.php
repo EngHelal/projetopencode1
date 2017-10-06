@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>Acceuil</title>
+
     <?php include 'header.php' ?>
-  </head>
-  <body><br><br><br><br>
     <div id="imghomepage">
-    <h1 id="home">Bienvenue sur Opencode !</h1><br>
+    <h1 id="home">Bienvenue sur Opencode !</h1>
     <div>
       <p class="img"><div class="container">
           <div class="row">
@@ -24,17 +16,10 @@
                   <span class="group-btn">
                       <input id="btn" type="button" name="login" value="connexion" class="btn btn-primary btn-md"><i class="fa fa-sign-in"></i>
                   </span>
-                  <script>
-                      $("#btn").click(function(){
-                        var user = $('#userName').val();
-                        var password = $('#userPassword').val();
-                        if (user !== '' && password) !== '' {
-                        }
-                      })
-                  </script>
                   </div>
                   </div>
     </div>
+<<<<<<< HEAD
 <br><br><br><br><br><br><br><br><br><br>
       <p id="text">Ce site propose de nombreuses ressources gratuites pour vous former à l'univers du web.
       Ainsi, vous pourrez notamment trouver des cours et dossiers complets sur différents langages de programmation comme
@@ -50,4 +35,6 @@
     </div><br><br><br><br><br><br><br><br><br><br>
   </body>
 </html>
+=======
+>>>>>>> 37743891ae078d35233d6b1c0d6fbb9dd0d74285
 <?php include 'footer.php' ?>

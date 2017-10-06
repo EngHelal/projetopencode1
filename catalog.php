@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Catalogue</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <style>
-  img{
-    float:left;
-    align:center;
-  }
-  h1 {
-    text-align:center;
-  }
-  </style>
-</head>
-<body>
-  <?php
+<?php
   include 'header.php';
   ?>
-  <h1>Voici les cours</h1>
 <h1>Les cours disponibles actuellement</h1>
-<section>
   <div id="Content">
     <div class="content">
       <img src="assets/img/javascript.png" alt="Javascript" title="Javascript"/>
@@ -35,7 +16,7 @@
       </p>
     </div>
     <div class="content">
-      <img src="assets/img/sql.png" alt="SQL" title="XUL"/>
+      <img src="assets/img/sql.png" alt="SQL" title="SQL"/>
       <p class="center">
         SQL
       </p>
@@ -95,8 +76,4 @@
       </p>
     </div>
   </div>
-</body>
-</html>
-  </div>
-</section>
 <?php include 'footer.php'; ?>
