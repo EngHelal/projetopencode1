@@ -33,8 +33,9 @@ nav a{
 }
 /*footer*/
 footer{
-margin-left:-370px;
-  width: 2600px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 #rs{
   float: right;
@@ -163,7 +164,7 @@ h1{
 #welcome{
   color:white;
 }
-h1{
+#home{
   text-align: center;
   font-size: 70px;
   margin: 0px;
@@ -177,20 +178,37 @@ h1{
   font-size: 40px;
 }
 /*fin css fomulaire d'inscription*/
-/*Début css formulaire de connection*/
-body{
-  text-align: center;
-}
-#formulairelogin{
-  display: inline-block;
-  text-align: right;
-}
-legend{
-  text-align: center;
-  font-weight: bold;
-}
-/*Début css homepage*/
+/*Début css profile*/
 
+#titreprofile{
+  text-align: center;
+}
+ #contener{
+   display: flex;
+   justify-content: space-around;
+ }
+/*début css profile*/
+#body{
+  background-color: grey;
+}
+#imgprofile{
+  float: right;
+}
+#titreprofile{
+  margin-top: -100px;
+}
+#contener{
+  display: flex;
+  flex-direction: column;
+  margin-left: 800px;
+}
+#contener2{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/*Fin css profile
 /*Fin css Anthony*/
 
 /*CSS Victorien */
@@ -257,7 +275,7 @@ legend{
   display:flex;
   flex-wrap: wrap;
   justify-content:space-around;
-  height: 50%;
+  height: 100%;
 }
 .content{
   border: 1px solid black;
