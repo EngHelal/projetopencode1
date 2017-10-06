@@ -1,7 +1,7 @@
-
 <?php
 include 'header.php';
 ?>
+<div id="fond">
 <div class="container" id="indexContent">
   <!--<div class="container">-->
       <div id="slider">
@@ -36,6 +36,7 @@ include 'header.php';
         <p>Cependant, si vous êtes prêt à relever ce challenge, ce site devrait vous aider à vous former de manière efficace à la programmation
           informatique</p>
         </div>
+      </div>
     <!--</div>-->
     <?php
     include 'footer.php';
