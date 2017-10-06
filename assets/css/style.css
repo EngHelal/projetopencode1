@@ -92,7 +92,7 @@ h1{
 
 /*Fin pour Amadou*/
 
-
+/*Début inscription*/
 .formulairecenter{
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ h1{
   text-align: center;
 }
 /*Fin css inscription*/
-/*Homepage*/
+/* Début css Homepage*/
 #imghomepage{
   background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
 }
