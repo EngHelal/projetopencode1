@@ -2,7 +2,7 @@
 <h1 id="HTML">Exercices HTML</h1>
 <div id="Exo1HTML">
   <div id="énoncéhtml1">
-    <p><strong>Exercice 1 HTML</strong></p>
+    <p><strong><span style="color:red">Exercice 1 HTML</span></strong></p>
     <p>Créez un Tableau avec un &lt;<span style="color:red">thead</span>&gt;, un &lt;<span style="color:red">tfoot</span>&gt;
       et un&lt;<span style="color:red">tbody</span>&gt;</p>
       <p>Dans le &lt;<span style="color:red">thead</span>&gt; le titre du tableau.</p>
@@ -23,12 +23,13 @@
             &lt;/html&gt;<br/>
           </span>
         </div>
-      </div><br/>
-      <input type="button" value="Vérifiez vos réponses"/><br/><br/>
+        <input type="button" value="Vérifiez vos réponses" style="color:black"/>
+      </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
     </div>
     <div id="Exo2HTML">
       <div id="énoncéhtml2">
-        <p><strong>Exercice 2 HTML</strong></p>
+        <p><strong><span style="color:red">Exercice 2 HTML</span></strong></p>
         <p>Créez un formulaire qui contient  les élements suivants :</p>
         <p>Champs de saisie de nom, prénom et e-mail.</p>
         <p>Deux boutons radio pour le choix du sexe.</p>
@@ -49,6 +50,6 @@
             </span>
           </div>
         </div><br/>
-        <input type="button" value="Vérifiez vos réponses"/><br/><br/><br/><br/><br/>
+        <input type="button" value="Vérifiez vos réponses" style="color:black"/><br/><br/><br/><br/><br/>
       </div>
       <?php include 'footer.php'?>
