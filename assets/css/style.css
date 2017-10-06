@@ -117,7 +117,7 @@ h1{
   font-size: 25px;
   width: 100%;
 }
-/*fin css profil
+/*fin css profil*/
 /*formulaire d'inscription*/
 .formulairecenter{
   display: flex;
@@ -138,6 +138,7 @@ h1{
   font-weight: bold;
   text-align: center;
 }
+/*Fin css inscription*/
 /*Homepage*/
 #imghomepage{
   background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
@@ -175,48 +176,36 @@ h1{
   text-align: center;
   font-size: 40px;
 }
-/*fin css fomulaire d'inscription*/
-
-/*Début css formulaire connexion*/
-#formulairelogin{
-  text-align: center;
-}
-
+/*fin css homepage*/
 /*Début css profile*/
-
-#titreprofile{
-  text-align: center;
-}
- #contener{
-   display: flex;
-   justify-content: space-around;
- }
-/*début css profile*/
 #body{
-  background-color: grey;
+  background-color: #F1F8FF;
 }
 #imgprofile{
   float: right;
 }
 #titreprofile{
-  margin-top: -100px;
+  text-align: center;
+  margin-top: ;
 }
-#contener{
-  display: flex;
-  flex-direction: column;
-  margin-left: 800px;
-}
+ #contener{
+   font-size: 20px;
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
+
+ }
 #contener2{
   display: flex;
   justify-content: space-around;
-
 }
+/*Formulairelogin*/
 #formulairelogin{
   text-align: center;
 }
-
 /*Fin css profile
->>>>>>> 93774a1856e501fd05966aa7915001d2fa1bf7f1
 /*Fin css Anthony*/
 
 /*CSS Victorien */
