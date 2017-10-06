@@ -1,5 +1,4 @@
-
-<link rel"stylesheet" href="assets/css/style.css">
+<?php include 'header.php'?>
     <div class="formulairecenter">
     <fieldset class="fieldset">
       <form method="post" action="quelquepart.php">
@@ -16,5 +15,5 @@
       <p>By signing up you agree to our <a href="">terms of service.</a></p>
     </form>
     </fieldset>
-
   </div>
+  <?php include 'footer.php'?>
