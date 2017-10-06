@@ -1,3 +1,6 @@
+*{
+  background-color: #F8F8F8;
+}
 /*Debut css Amadou*/
 body{ padding-top: 120px;
 
@@ -42,6 +45,7 @@ nav a{
 /*contenu de la homepage*/
 #indexContent{
   margin-top: 140px;
+
 }
 /*login de la homepage*/
 #log{
@@ -148,7 +152,7 @@ h1{
 }
 
 /*Fin pour Amadou*/
-
+/*Début css Anthony*/
 /*Début inscription*/
 .formulairecenter{
   display: flex;
@@ -171,6 +175,9 @@ h1{
 }
 /*Fin css inscription*/
 /* Début css Homepage*/
+#fond{
+  background-color: #F8F8F8;
+}
 #imghomepage{
   background-image:url("http://iwallpapers2.free.fr/images/Abstract/Circuit_imprime_-_fond_ecran_1920x1080.jpg")
 }
