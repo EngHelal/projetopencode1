@@ -245,6 +245,7 @@ h1{
   display:flex;
   flex-wrap: wrap;
   justify-content:space-around;
+  height: 100%;
 }
 .content{
   border: 1px solid black;

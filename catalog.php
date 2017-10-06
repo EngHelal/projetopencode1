@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="content">
-      <img src="assets/img/sql.png" alt="SQL" title="XUL"/>
+      <img src="assets/img/sql.png" alt="SQL" title="SQL"/>
       <p class="center">
         SQL
       </p>
