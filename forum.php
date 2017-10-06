@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <title>Forum</title>
 </head>
-<body>
+<body class="background">
   <?php
   include 'header.php';
   ?>
