@@ -14,14 +14,6 @@
 <span class="group-btn">
 <input id="btn" type="button" name="login" value="connexion" class="btn btn-primary btn-md"><i class="fa fa-sign-in"></i>
 </span>
-<script>
-$("#btn").click(function(){
-  var user = $('#userName').val();
-  var password = $('#userPassword').val();
-  if (user !== '' && password) !== '' {
-  }
-  })
-  </script>
   </div>
   </div>
   body{

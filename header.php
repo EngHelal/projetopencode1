@@ -14,12 +14,12 @@
       <img src="assets/img/opencode.png" alt="logo">
     </div>
     <div id="sign" class="container-fluid">
-      <button type="button" id="myButton" class="btn btn-primary" onclick="document.location.href='sign.php'">Inscription</a></button>
-      <button type="button" id="myButton" class="btn btn-primary" onclick="document.location.href='login.php'">Connexion</a></button>
+      <button id="inscription" class="btn btn-primary" onclick="document.location.href='sign.php'">Inscription</button>
+      <button id="connexion" class="btn btn-primary">Connexion</button>
     </div>
     <nav class="navbar navbar-default">
       <div class="nav-header">
-        <a class="navbar-brand" href="homepage.php"><span class="glyphicon glyphicon-home"></span> Accueil</a>
+        <a class="navbar-brand" href="index.php"><span class="glyphicon glyphicon-home"></span> Accueil</a>
       </div>
       <div class="">
         <ul class="nav navbar-nav">

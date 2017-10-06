@@ -18,23 +18,75 @@ nav a{
   margin-bottom: 10px;
 }
 #logo{
-  width: 50%;
-  height: 30px;
-  padding: 0px;
+  padding: 10px;
   float: left;
   margin-top: -100px;
 }
 #logo img{
   margin: 0px;
 	padding:0px;
-	width:80%;
-  height: 130px;
+	width:100%;
   clear: both;
+}
+/*body*/
+#slider{
+  width: 73%;
+  height: 400px;
+  float: left;
+}
+#slider img{
+  width: 100%;
+  height: 100%;
+}
+
+/*contenu de la homepage*/
+#indexContent{
+  margin-top: 140px;
+}
+/*login de la homepage*/
+#log{
+  width: 25%;
+  height: 400px;
+  display: none;
+  float: right;
+}
+#log-wrapper{
+  width: 100%;
+  height: 365px;
+  margin: auto;
+  padding: 0;
+  border: 5px black solid;
+}
+#log li{
+  list-style-type: none;
+}
+}
+input[type="submit"]{
+  width: 215px;
+  height: 50px;
+  align: center;
+  padding: auto;
+  margin-left: 0;
+  margin-top: 10px;
+  border: 1px black solid;
+
+}
+input[type="checkbox"]{
+  margin-left: 0;
+  margin-top: 30px;
+}
+input{
+  margin-top: 30px;
+  padding: auto;
+}
+#messageaccueil{
+float: left;
+clear: both;
 }
 /*footer*/
 footer{
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
   width: 100%;
 }
 #rs{
