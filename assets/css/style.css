@@ -33,9 +33,8 @@ nav a{
 }
 /*footer*/
 footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+margin-left:-370px;
+  width: 2600px;
 }
 #rs{
   float: right;
@@ -164,8 +163,6 @@ h1{
 #welcome{
   color:white;
 }
-/*fin css fomulaire d'inscription*/
-/*Début css homepage*/
 h1{
   text-align: center;
   font-size: 70px;
@@ -179,6 +176,21 @@ h1{
   text-align: center;
   font-size: 40px;
 }
+/*fin css fomulaire d'inscription*/
+/*Début css formulaire de connection*/
+body{
+  text-align: center;
+}
+#formulairelogin{
+  display: inline-block;
+  text-align: right;
+}
+legend{
+  text-align: center;
+  font-weight: bold;
+}
+/*Début css homepage*/
+
 /*Fin css Anthony*/
 
 /*CSS Victorien */
