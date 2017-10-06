@@ -5,7 +5,7 @@ include 'header.php';
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-<body id="body">
+<div id="body">
   <img id="imgprofile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3eNCBWfOik6RKLA4D2zi1335pk-lz0bZ5h4VUlnRV-Pq5ruX"/>
   <h1 id="titreprofile">Vous êtes sur votre profil</h1><br><br><br><br><br>
   <div id="contener">
@@ -40,6 +40,7 @@ include 'header.php';
             <li>Comprendre la blockchaine</li></ol>
           </div>
         </div>
+      </div>
         <?php
         include 'footer.php';
         ?>
