@@ -92,33 +92,7 @@ h1{
 
 /*Fin pour Amadou*/
 
-}
 
-/*Début css Anthony profil*/
-.titreprofile{
-  text-align: center;
-  margin-top:0px;
-  margin-left: 190px;
-}
-
-.contener{
-  display: flex;
-  justify-content: space-around;
-
-}
-.img{
-  float: right;
-}
-.p{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  width: 100%;
-}
-/*fin css profil*/
-/*formulaire d'inscription*/
 .formulairecenter{
   display: flex;
   justify-content: center;
